@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrudActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/saveCityTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_a_city_to_save"
+        android:layout_margin="24dp"/>
+
+    <EditText
+        android:id="@+id/saveCityEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:inputType="text"
+        android:hint="@string/eg_toronto"/>
+
+    <Button
+        android:id="@+id/saveCityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_city"
+        android:layout_margin="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fetch_user_s_city"
+        android:layout_margin="24dp"/>
+
+    <TextView
+        android:id="@+id/userCityTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:hint="@string/user_s_city_will_appear_here"/>
+
+    <Button
+        android:id="@+id/fetchCityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fetch_city"
+        android:layout_margin="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_user_s_city"
+        android:layout_margin="24dp"/>
+
+    <EditText
+        android:id="@+id/updateUserCityEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:inputType="text"
+        android:hint="@string/eg_toronto"/>
+
+    <Button
+        android:id="@+id/updateCityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_city"
+        android:layout_margin="24dp"/>
+
+    <Button
+        android:id="@+id/deleteCityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_city"
+        android:layout_margin="24dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

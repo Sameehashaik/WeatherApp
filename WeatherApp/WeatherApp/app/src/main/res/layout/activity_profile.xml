@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreferencesActivity">
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingBottom="60dp"> <!-- Adjusted for NavBar -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <!-- Profile Image -->
+            <ImageView
+                android:id="@+id/profile_icon"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:contentDescription="Profile Icon"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp" />
+
+            <!-- Username -->
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username not found"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp" />
+
+            <!-- Preferences Section -->
+            <TextView
+                android:id="@+id/weatherOptionsTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit your preferences"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:gravity="start" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="start">
+
+                <CheckBox
+                    android:id="@+id/temperatureCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:layout_marginTop="8dp" />
+
+                <CheckBox
+                    android:id="@+id/feelsLikeCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Feels Like"
+                    android:layout_marginTop="8dp" />
+
+                <CheckBox
+                    android:id="@+id/windspeedCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Windspeed"
+                    android:layout_marginTop="8dp" />
+
+                <CheckBox
+                    android:id="@+id/uvCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UV Index"
+                    android:layout_marginTop="8dp" />
+
+                <CheckBox
+                    android:id="@+id/pressureCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pressure"
+                    android:layout_marginTop="8dp" />
+
+                <CheckBox
+                    android:id="@+id/humidityCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Humidity"
+                    android:layout_marginTop="8dp" />
+
+                <CheckBox
+                    android:id="@+id/visibilityCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visibility"
+                    android:layout_marginTop="8dp" />
+
+                <CheckBox
+                    android:id="@+id/sunriseCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunrise Time"
+                    android:layout_marginTop="8dp" />
+
+                <CheckBox
+                    android:id="@+id/sunsetCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunset Time"
+                    android:layout_marginTop="8dp" />
+
+                <CheckBox
+                    android:id="@+id/aqiCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Air Quality Index (AQI)"
+                    android:layout_marginTop="8dp" />
+
+                <CheckBox
+                    android:id="@+id/weatherDescCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weather Condition Description"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <!-- Save Button -->
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:layout_marginTop="16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:layout_constraintTop_toBottomOf="@id/sunsetCard"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

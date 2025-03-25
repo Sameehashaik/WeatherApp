@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1028041765759",
+    "project_id": "weatherapp-efee4",
+    "storage_bucket": "weatherapp-efee4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028041765759:android:fe2804e73ab2fb535b604a",
+        "android_client_info": {
+          "package_name": "com.humber.weatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028041765759-1957cqbng6hbcv9s5r352mt7ogl585uq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.humber.weatherapp",
+            "certificate_hash": "f0b7ef82c133e3a2c7417824a601fd7f41ff8aa5"
+          }
+        },
+        {
+          "client_id": "1028041765759-k0ucch87id7esphbof9hsqd096tq84er.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.humber.weatherapp",
+            "certificate_hash": "d997f348f92edfd50f052b5812da510ec4e5eef9"
+          }
+        },
+        {
+          "client_id": "1028041765759-7vp668r2vqfu63oho7j3ac10hqtvud0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaFh86awzpg68zQ8IhGmBqc7YqyIpp2OA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028041765759-7vp668r2vqfu63oho7j3ac10hqtvud0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

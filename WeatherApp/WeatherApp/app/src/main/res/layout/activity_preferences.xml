@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreferencesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/enterCityTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your home city"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/cityEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="e.g., Toronto"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/weatherOptionsTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose weather options"
+            android:textSize="18sp"/>
+
+        <CheckBox
+            android:id="@+id/temperatureCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:id="@+id/feelsLikeCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feels Like"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:id="@+id/windspeedCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Windspeed"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:id="@+id/uvCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UV Index"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:id="@+id/pressureCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pressure"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:id="@+id/humidityCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Humidity"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:id="@+id/visibilityCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visibility"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:id="@+id/sunriseCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunrise Time"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:id="@+id/sunsetCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunset Time"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:id="@+id/aqiCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Air Quality Index (AQI)"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:id="@+id/weatherDescCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather Condition Description"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

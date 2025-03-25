@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="hello_there">Hello there!</string>
+    <string name="default_web_client_id">1028041765759-1957cqbng6hbcv9s5r352mt7ogl585uq.apps.googleusercontent.com</string>
+    <string name="welcome_to_weatherapp">Welcome\nto\nWeatherApp</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="weather">Weather</string>
+    <string name="enter_your_location">Enter your location:</string>
+    <string name="get_weather">Get Weather</string>
+    <string name="enter_a_city">Enter a city:</string>
+    <string name="enter_a_city_to_save">Enter a city to save:</string>
+    <string name="save_city">Save City</string>
+    <string name="fetch_user_s_city">Fetch user\'s city:</string>
+    <string name="user_s_city_will_appear_here">User\'s city will appear here</string>
+    <string name="fetch_city">Fetch City</string>
+    <string name="update_user_s_city">Update user\'s city</string>
+    <string name="update_city">Update City</string>
+    <string name="eg_toronto">eg: Toronto</string>
+    <string name="delete_city">Delete City</string>
+    <string name="test_crud">Test CRUD</string>
+</resources>
